@@ -1,8 +1,17 @@
 [package]
-name = "crypto"
+name = "crypto_sandbox"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+aes-gcm = "0.10.1"
+kyber-rs = "0.1.0-alpha.7"
+sha3 = "0.10.8"
+
+
+
+pqc_kyber = "0.6.0"
+serde = "1.0.163"
+bincode = "1.3.3"
